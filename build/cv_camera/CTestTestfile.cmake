@@ -1,0 +1,8 @@
+# CMake generated Testfile for 
+# Source directory: /home/robot/Projects/Image_Processing/src/cv_camera
+# Build directory: /home/robot/Projects/Image_Processing/build/cv_camera
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+ADD_TEST(_ctest_cv_camera_rostest_test_cv_camera.test "/home/robot/Projects/Image_Processing/build/catkin_generated/env_cached.sh" "/usr/bin/python" "/opt/ros/indigo/share/catkin/cmake/test/run_tests.py" "/home/robot/Projects/Image_Processing/build/test_results/cv_camera/rostest-test_cv_camera.xml" "--return-code" "/opt/ros/indigo/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/robot/Projects/Image_Processing/src/cv_camera --package=cv_camera --results-filename test_cv_camera.xml --results-base-dir \"/home/robot/Projects/Image_Processing/build/test_results\" /home/robot/Projects/Image_Processing/src/cv_camera/test/cv_camera.test ")
+ADD_TEST(_ctest_cv_camera_rostest_test_no_yaml.test "/home/robot/Projects/Image_Processing/build/catkin_generated/env_cached.sh" "/usr/bin/python" "/opt/ros/indigo/share/catkin/cmake/test/run_tests.py" "/home/robot/Projects/Image_Processing/build/test_results/cv_camera/rostest-test_no_yaml.xml" "--return-code" "/opt/ros/indigo/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/robot/Projects/Image_Processing/src/cv_camera --package=cv_camera --results-filename test_no_yaml.xml --results-base-dir \"/home/robot/Projects/Image_Processing/build/test_results\" /home/robot/Projects/Image_Processing/src/cv_camera/test/no_yaml.test ")
